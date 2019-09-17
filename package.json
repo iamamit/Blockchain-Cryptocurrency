@@ -1,0 +1,40 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node index.js",
+    "dev": "npm run start-redis && nodemon index.js",
+    "dev-peer": "cross-env nodemon ",
+    "start-redis": "redis-server"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "config": {
+    "port": "3100"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cross-env": "^5.2.1",
+    "elliptic": "^6.5.1",
+    "express": "^4.17.1",
+    "firebase": "^6.4.0",
+    "hex-to-binary": "^1.0.1",
+    "moch": "0.0.1",
+    "pubnub": "^4.0.0",
+    "redis": "^2.8.0",
+    "redis-server": "^1.2.2",
+    "request": "^2.88.0",
+    "superagent": "^5.1.0",
+    "uuid": "^3.3.3"
+  }
+}
