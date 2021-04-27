@@ -31,7 +31,7 @@
     "hex-to-binary": "^1.0.1",
     "moch": "0.0.1",
     "pubnub": "^4.0.0",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "redis-server": "^1.2.2",
     "request": "^2.88.0",
     "superagent": "^5.1.0",
